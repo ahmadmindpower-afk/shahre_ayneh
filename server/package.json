@@ -1,0 +1,10 @@
+{
+  "name": "shahr-e-ayeneh-server",
+  "version": "7.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "export:profiles": "node export-data.js profiles",
+    "export:research": "node export-data.js research"
+  }
+}

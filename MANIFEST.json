@@ -1,0 +1,521 @@
+{
+  "version": "7.0.0",
+  "title": "شهر آینه",
+  "stages": 389,
+  "patterns": 259,
+  "conflicts": 22,
+  "cities": 18,
+  "realms": 3,
+  "cityArtCount": 18,
+  "threeDRenderer": "WebGL 1 low-poly (no external runtime)",
+  "mobileQualityModes": [
+    "auto",
+    "battery",
+    "balanced",
+    "high"
+  ],
+  "embeddedCity3DPreviews": 18,
+  "fileCount": 100,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 5111,
+      "sha256": "a94cef828a568b3a2fdd6a016fcacb70e6d7c628a8628a86bc9f9e5fc306f197"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4992,
+      "sha256": "4eededebb7508c042fd8fa1212ce58f188dcba713ed1c58be43d3bd10834e365"
+    },
+    {
+      "path": "RUN_TESTS.bat",
+      "size_bytes": 285,
+      "sha256": "1109fbd724a0926801151aa585edc0aaec5f11166126ede155f5a34008384f71"
+    },
+    {
+      "path": "assets/3d-cities/city-01.jpg",
+      "size_bytes": 28879,
+      "sha256": "162aae16524cfcdcfd6cfe815ca666cca9967d0372f0bd97e3db98e3790f9661"
+    },
+    {
+      "path": "assets/3d-cities/city-02.jpg",
+      "size_bytes": 25406,
+      "sha256": "e4d247ffd0b2425641c35e408386b117b283b53ebe25aefdb3f7a4beee715a0d"
+    },
+    {
+      "path": "assets/3d-cities/city-03.jpg",
+      "size_bytes": 27580,
+      "sha256": "dbdf9076385e2a88995d3c6fc54fc1bbcbe770a9cd3a515212f9d4524b52e589"
+    },
+    {
+      "path": "assets/3d-cities/city-04.jpg",
+      "size_bytes": 28473,
+      "sha256": "d8f3ce3c390f2f2dadb820ceba36a9e2afd6d8e127d3ff5591c76b6fedca05a5"
+    },
+    {
+      "path": "assets/3d-cities/city-05.jpg",
+      "size_bytes": 29713,
+      "sha256": "83203e6c4c4cb01a80c2e2650353a5bea8f6effa74047577ca740984510ca76b"
+    },
+    {
+      "path": "assets/3d-cities/city-06.jpg",
+      "size_bytes": 27942,
+      "sha256": "a2cac73d44c7d133fe9018dc1e77f1135d874c13bfa31e40d7508cd0d13b500a"
+    },
+    {
+      "path": "assets/3d-cities/city-07.jpg",
+      "size_bytes": 32655,
+      "sha256": "fd26f7373fce7ad89df26b866d6de473587f5d2c7c8526027eb05fb8464d4bbd"
+    },
+    {
+      "path": "assets/3d-cities/city-08.jpg",
+      "size_bytes": 26562,
+      "sha256": "bbeb4be6d3e743562a21c89b06b4afd45e693ffeb58c3dc06063f4881fe2fc35"
+    },
+    {
+      "path": "assets/3d-cities/city-09.jpg",
+      "size_bytes": 29400,
+      "sha256": "f13889a60fca2cde54dbf9cf4971d043dba9b28a243100d5785ed95e75ae970a"
+    },
+    {
+      "path": "assets/3d-cities/city-10.jpg",
+      "size_bytes": 29420,
+      "sha256": "11d58b9fe097fccd24e74862d49ac729322faaacad6fac579921001e10ef6f1b"
+    },
+    {
+      "path": "assets/3d-cities/city-11.jpg",
+      "size_bytes": 26099,
+      "sha256": "83c3eca63c69d85d0a181a07ef9fa06201bb27b8bad0a36d0a2f55c4f9407a68"
+    },
+    {
+      "path": "assets/3d-cities/city-12.jpg",
+      "size_bytes": 27952,
+      "sha256": "a41ec0a4bc96d474ab12dc0037c8bd83242bd3efaa9047687467f9e7893a6b5e"
+    },
+    {
+      "path": "assets/3d-cities/city-13.jpg",
+      "size_bytes": 25391,
+      "sha256": "1c203e5b113e5eac411064e2e5d7fd8d9a33d2feeadba2c36e323f7147fee931"
+    },
+    {
+      "path": "assets/3d-cities/city-14.jpg",
+      "size_bytes": 28074,
+      "sha256": "42b4f9ba6992e7412ac0874f180a8041a8e13d7e96bc6ac10a49280da9f1cb0b"
+    },
+    {
+      "path": "assets/3d-cities/city-15.jpg",
+      "size_bytes": 29269,
+      "sha256": "098adbde753b56a9fbe316f1e8f3fcc0f32cef24e85dc0563a03e3c9c682a1ca"
+    },
+    {
+      "path": "assets/3d-cities/city-16.jpg",
+      "size_bytes": 31680,
+      "sha256": "e04e31adc1db01c413240b6853aa4389d5d265a4e394a41fb3800120edde4f4d"
+    },
+    {
+      "path": "assets/3d-cities/city-17.jpg",
+      "size_bytes": 27610,
+      "sha256": "d4bf1b9773bf4ead7f5192751cf07806bf13131e429bb0cecaf2beaa6026e416"
+    },
+    {
+      "path": "assets/3d-cities/city-18.jpg",
+      "size_bytes": 28030,
+      "sha256": "61783f67fef7460cee39214973930d62b8c03c414b435688e938ef5ca5c81281"
+    },
+    {
+      "path": "assets/cities/city-01-silence-meaning.svg",
+      "size_bytes": 79018,
+      "sha256": "b694c25dd5d2277e18fceab541af918b2f39c979501808d01673d39a0453026b"
+    },
+    {
+      "path": "assets/cities/city-02-masks-covenants.svg",
+      "size_bytes": 75657,
+      "sha256": "7ab6e1232701554e6b932a7f160df64182bab0653c50b3cd04fb1baa14e1793a"
+    },
+    {
+      "path": "assets/cities/city-03-two-narratives.svg",
+      "size_bytes": 70560,
+      "sha256": "c079b776e8820abce7604eef6c9b965c7ebdc28f72e11f781e308e48d962db56"
+    },
+    {
+      "path": "assets/cities/city-04-motivation-roots.svg",
+      "size_bytes": 70715,
+      "sha256": "2a9c640013a2c5601e5fe93e591bc72a7952910e2de3878642b8b82eca5c7ab3"
+    },
+    {
+      "path": "assets/cities/city-05-bonds-power.svg",
+      "size_bytes": 69198,
+      "sha256": "90a784171156dd3562c87a8f740856b48ae9b0ce6b81fd00e5e5bfb2d22bda6a"
+    },
+    {
+      "path": "assets/cities/city-06-time-self.svg",
+      "size_bytes": 72491,
+      "sha256": "e28392f4cd2a9cd4860a29ad8493b97bad2e77b2c34838a653778ceed1b5c611"
+    },
+    {
+      "path": "assets/cities/city-07-clear-borders.svg",
+      "size_bytes": 71739,
+      "sha256": "a679e28c03ca52446286d0cc31ab878b93961c5f456004f5ba6235551e3e98f5"
+    },
+    {
+      "path": "assets/cities/city-08-reversed-roles.svg",
+      "size_bytes": 67437,
+      "sha256": "d57b3e1731d9f03933cb65797b16ca6205e9f640cb27b8a6716c9622c073a9b2"
+    },
+    {
+      "path": "assets/cities/city-09-conditional-bonds.svg",
+      "size_bytes": 73842,
+      "sha256": "e85db9cfb55c93fb0c3fda1f0df1bddfc922fa8e457f89a9f08f1c2372f86eff"
+    },
+    {
+      "path": "assets/cities/city-10-three-bridges.svg",
+      "size_bytes": 67944,
+      "sha256": "67382523c64b57e3b25f5c6027903fd6fa844d1a85f37262ac2c0b7896955275"
+    },
+    {
+      "path": "assets/cities/city-11-shattered-mirrors.svg",
+      "size_bytes": 69601,
+      "sha256": "fffccb78cb5555a11b4e79832a9b4efe3ea23088205096fbfe38889171f3abb0"
+    },
+    {
+      "path": "assets/cities/city-12-trust-sanctuary.svg",
+      "size_bytes": 73088,
+      "sha256": "c2c608d6ae53a174d075a6d6fb2d831dcde6c29d6399ba4817bef7e1c99e4def"
+    },
+    {
+      "path": "assets/cities/city-13-fog-possibility.svg",
+      "size_bytes": 65997,
+      "sha256": "30b4fb885c4a79321b458f59d1df21b2b1e3dd84472b1973eec5fcc9f1595cdc"
+    },
+    {
+      "path": "assets/cities/city-14-unfinished-paths.svg",
+      "size_bytes": 70725,
+      "sha256": "9e33c6af709b2fc3b29d43622534f1b30e78e5bf6fb37b708674f8c0bcfe2bf5"
+    },
+    {
+      "path": "assets/cities/city-15-conscience-hall.svg",
+      "size_bytes": 68920,
+      "sha256": "ead76bca39fed2b20940e67deda217c550cb777603c20b06fa3b836e2553caec"
+    },
+    {
+      "path": "assets/cities/city-16-silent-voices.svg",
+      "size_bytes": 77076,
+      "sha256": "05de7575e8225fc3fd45368c639ff300fd030bec692b91bfd1d47ce46b6f7872"
+    },
+    {
+      "path": "assets/cities/city-17-knowledge-tower.svg",
+      "size_bytes": 69650,
+      "sha256": "eedad85948a0e746da581932114f1866a3ce9f3df26c32d44d4803bb508d5423"
+    },
+    {
+      "path": "assets/cities/city-18-shared-responsibility.svg",
+      "size_bytes": 72640,
+      "sha256": "8dda17e5cee7990b804e2ef57ceb337bf942daae41e00b6375b9f5ded7082f35"
+    },
+    {
+      "path": "assets/previews/18-city-contact-sheet.jpg",
+      "size_bytes": 551410,
+      "sha256": "49095e9a4c88d1dc6e889348fa415592153283f9fa5b977c2ad4e11a155fcca4"
+    },
+    {
+      "path": "assets/previews/18-city-world-atlas.png",
+      "size_bytes": 239836,
+      "sha256": "c62936e8ab83eb0cb795674743a3fe2b6fee9a1e4f3e1eae7065f85cc2a014f9"
+    },
+    {
+      "path": "assets/previews/3d-city-gallery-v7.jpg",
+      "size_bytes": 361555,
+      "sha256": "1cca4d79bf8f01881c56b29711e0abdafdba9f9ea7491f1781b2b2b1a3d9a761"
+    },
+    {
+      "path": "assets/previews/3d-mobile-gameplay-v7.png",
+      "size_bytes": 686041,
+      "sha256": "a8e4868b3cdac9f97bd302829a85c87d4ba390e1f3bc211d88c2773f5a4f7b64"
+    },
+    {
+      "path": "assets/previews/Rosha_Illustrated_City_Gallery.png",
+      "size_bytes": 288859,
+      "sha256": "cc3fa2960027f09f3c47d7a6a6db9500b4f9e1bd15c0162e1c5821069e826833"
+    },
+    {
+      "path": "assets/previews/Rosha_Illustrated_Final_Gameplay.png",
+      "size_bytes": 912845,
+      "sha256": "884701eaf5565075697c52e75896b6c9e1cef23ab09fcdcb77c1606e9da62f52"
+    },
+    {
+      "path": "assets/previews/Rosha_Illustrated_Final_Mobile.png",
+      "size_bytes": 169000,
+      "sha256": "1cbde7da08bc0eed366f53cfe5eb995193b322c14a9c609d7f2bd525072fa5b6"
+    },
+    {
+      "path": "assets/previews/Rosha_Illustrated_Start_Preview.png",
+      "size_bytes": 369469,
+      "sha256": "9bbb60395b7f6b121b3b254525c78feacb1c30ab48d922e651e96b87a8854aaa"
+    },
+    {
+      "path": "assets/previews/six-city-contact-sheet.jpg",
+      "size_bytes": 273453,
+      "sha256": "f706f5500ff361be1b7aa2900a2e9d8ba436f01600d8e820d9e624d5dfb28e58"
+    },
+    {
+      "path": "assets/world/world-atlas-18-cities.svg",
+      "size_bytes": 19764,
+      "sha256": "4926e0b5b9b0bbeb8ea4c05214dc76954b27429418c90da971a363ede81a5401"
+    },
+    {
+      "path": "data/city-conflict-mapping.json",
+      "size_bytes": 47564,
+      "sha256": "0929a9c0444b920cb5322c6d36f844c2c89ffd02d88e983ce3c2711211bcecee"
+    },
+    {
+      "path": "data/city-master-18.json",
+      "size_bytes": 20389,
+      "sha256": "476924cd8f75185e9e03936ed190fcc11b4ab0bf96853f6ac22bef7bcb58955a"
+    },
+    {
+      "path": "data/conflict-master-catalogue.json",
+      "size_bytes": 170232,
+      "sha256": "661ae5a9ef9be117a7538704809f87ff2da975c041a79d485201278e24fbcd76"
+    },
+    {
+      "path": "data/feature-status-50.json",
+      "size_bytes": 14248,
+      "sha256": "43309288181f1dc6549fdd5ee8d025e04ed2b8a158a6413cae583a52797d2557"
+    },
+    {
+      "path": "data/pattern-catalogue.json",
+      "size_bytes": 206824,
+      "sha256": "523db67dbefb06735355014bc593ddebd5916f3724cf19ec4efbceab06f6c7e7"
+    },
+    {
+      "path": "data/source-conflict-patterns.json",
+      "size_bytes": 105641,
+      "sha256": "913f83922aef9f7ab3ac7d7181ef2cb7d37c4f9859daaf46a8d392440da5c60a"
+    },
+    {
+      "path": "data/stage-expansion-catalogue.json",
+      "size_bytes": 494849,
+      "sha256": "6376e87ca8513c202b6dc10dfaa5a549503c21a612b74cb7fe7a3b89afe8cea1"
+    },
+    {
+      "path": "data/stage-review-v4.json",
+      "size_bytes": 10979,
+      "sha256": "58a08686d47d3cf0a019405e74723cbf67a5441e62d9de6e69d95bb2ca03edee"
+    },
+    {
+      "path": "data/stage-scene-catalogue.json",
+      "size_bytes": 3056694,
+      "sha256": "62c1e6d9e0fe45392835e5360ffc3db58c4e6f9bd7dc6ff947e87a18e57924f6"
+    },
+    {
+      "path": "data/stage-template.json",
+      "size_bytes": 3023,
+      "sha256": "2bd20b2e1550675484ea8cb7cf9786cda7af9f44acfac17d5ed3e23915da7cf1"
+    },
+    {
+      "path": "docs/3D_MOBILE_RENDERING_V7.md",
+      "size_bytes": 4536,
+      "sha256": "1e877097ad05f698587d3404b99755d76248a7d230840c33e350fd8438c79a0b"
+    },
+    {
+      "path": "docs/ARCHITECTURE_ROADMAP.md",
+      "size_bytes": 5028,
+      "sha256": "5fa4d7466474a86cd289629b5752e6147d70197c0caf3648525a4b127c652e4e"
+    },
+    {
+      "path": "docs/BROWSER_SMOKE_TEST_V5.md",
+      "size_bytes": 1854,
+      "sha256": "3da372e72e632d35a626239caaa7790ec0c7e59d5bb1e08d8e89dadb507379a0"
+    },
+    {
+      "path": "docs/BUGFIX_JOB_SPACE_V6_0_1.md",
+      "size_bytes": 1451,
+      "sha256": "34ec7435d161aa69fa241fd6a2da23af99554b79150f288341ed0d219304e6c5"
+    },
+    {
+      "path": "docs/CITY_EXPANSION_V5.md",
+      "size_bytes": 3184,
+      "sha256": "d090fe3ab8227690ac9d356fb68a31621305dd775761ef8e49ddd5a39b393d57"
+    },
+    {
+      "path": "docs/CITY_WORLD_BIBLE_V5.md",
+      "size_bytes": 19031,
+      "sha256": "6f961f13594c7405a23021a66314d4335e4b0d11326f6dea57e765ec352d5d05"
+    },
+    {
+      "path": "docs/CONFLICT_MAPPING.md",
+      "size_bytes": 3868,
+      "sha256": "b56107f81624ec0080a808c9d920f71f34fdaa131b8ea9d1ca701e91f01171a2"
+    },
+    {
+      "path": "docs/CONFLICT_PATTERN_MASTER_V2.docx",
+      "size_bytes": 87718,
+      "sha256": "f62d896fcf403a08fb3e141c25f657833e0adc846c660af174d9fc04008f99cd"
+    },
+    {
+      "path": "docs/CONFLICT_PATTERN_MASTER_V2.md",
+      "size_bytes": 3856,
+      "sha256": "c9249f620089048cd29bd26b50882e53a8f46913ed891498e0a0dba53cbbad84"
+    },
+    {
+      "path": "docs/CONFLICT_PATTERN_MASTER_V2.pdf",
+      "size_bytes": 1244563,
+      "sha256": "9ffebbc0c0f9d4261dcfdf03ba3b3b35a929263dccb4aa68f03970f6c2e23b28"
+    },
+    {
+      "path": "docs/DECISION_LOG.md",
+      "size_bytes": 2407,
+      "sha256": "29dd26055e9c37b2ae423af2e17f8925f62f4d39244ad05991a4991117307208"
+    },
+    {
+      "path": "docs/GITHUB_HANDOFF.md",
+      "size_bytes": 2392,
+      "sha256": "121c997ebd451864772423b12c98582e14f606588f9933613e059e4f4108d601"
+    },
+    {
+      "path": "docs/GITHUB_HANDOFF_SHORT.txt",
+      "size_bytes": 660,
+      "sha256": "8d017efba29da693f9b3a005eae82f190dd000c1e14e8147f4167345172c1c4b"
+    },
+    {
+      "path": "docs/IDEAS_78.md",
+      "size_bytes": 16614,
+      "sha256": "8442b7bb61e27359931f4e62b999ccbe1c4f7080210e6178a590f549f703690a"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_STATUS.md",
+      "size_bytes": 15661,
+      "sha256": "3bdeef8033c21c33470c1852253049749e0f16223eae00962fba5e52f2d5f6f1"
+    },
+    {
+      "path": "docs/PROJECT_STATUS.md",
+      "size_bytes": 3870,
+      "sha256": "55e94e0a67a635ab1752e05371d715846b2d1c824c04aa32d22e435af69eb6d8"
+    },
+    {
+      "path": "docs/QA_CHECKLIST.md",
+      "size_bytes": 3215,
+      "sha256": "a6ef0632e79a4306e37ab3215d614ba1512e59d7584e23f7ad95d2eaa7b34630"
+    },
+    {
+      "path": "docs/SCENE_BIBLE.md",
+      "size_bytes": 10902,
+      "sha256": "ef7bbe0d41ece96a88ed888dd9fbe81d5424c911c0f9ab854dcc8a005acf3c6b"
+    },
+    {
+      "path": "docs/STAGE_EXPANSION_V3.md",
+      "size_bytes": 4071,
+      "sha256": "9acb1dd43b474d9db03dff2d27adf1cba75fa144b8f82da5af8feda70da9890a"
+    },
+    {
+      "path": "docs/STAGE_REVIEW_V4.md",
+      "size_bytes": 11266,
+      "sha256": "93607610f2fb0e991d55c93b220677cfed7c77c67cd79750a73df0e5cd30ae51"
+    },
+    {
+      "path": "docs/START_HERE_PROFILE_AND_SERVER_V6_FA.md",
+      "size_bytes": 4879,
+      "sha256": "a00dbf7a836278687396f27c1822a153d1a9d952f6f2fdc2e578e6b30b5db7ec"
+    },
+    {
+      "path": "docs/START_HERE_V7_FA.md",
+      "size_bytes": 2808,
+      "sha256": "a4f7fae5d2c1b076eb05dce27c8846fea23115c448b17e1b38eaa73d60823c02"
+    },
+    {
+      "path": "docs/TEAM_COUNCIL.md",
+      "size_bytes": 6248,
+      "sha256": "1233f91e2bebd893029460398832385dc7d170fb592b793f90834fa653f518df"
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "size_bytes": 1881,
+      "sha256": "25947dd41ebca492705dac896a6345647dd877cd63f5d6b65206ba45190c3591"
+    },
+    {
+      "path": "docs/TEST_REPORT_V6.md",
+      "size_bytes": 5900,
+      "sha256": "d8956439fd7e17d3b77e60067b3052f00850a82dfbedd31abcde2c8c993cdaae"
+    },
+    {
+      "path": "docs/TEST_REPORT_V7.md",
+      "size_bytes": 2696,
+      "sha256": "c5cfc759200419002d721240b9ec44267fd8a4429be256425133c3db5c64edc6"
+    },
+    {
+      "path": "docs/USER_PROFILE_AND_RESEARCH_PRIVACY_V6.md",
+      "size_bytes": 4475,
+      "sha256": "107f4df3cef4662e8409823884a4ace0df25a6fca36de2e69de155d181b7b326"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 5888291,
+      "sha256": "89b72aab70a1c7cc43dccbf1a8d743f593564a3109a848649ea7df1786875001"
+    },
+    {
+      "path": "server/.env.example",
+      "size_bytes": 175,
+      "sha256": "b83bd6570d9f8865d443728f56c64d12f7bfcbdb8b3f2b3829ffd51115030d8e"
+    },
+    {
+      "path": "server/.gitignore",
+      "size_bytes": 25,
+      "sha256": "4f1a2497426751fcb00869a1f02d53b168ef08ec058a37287766ce57e303d8ed"
+    },
+    {
+      "path": "server/README.md",
+      "size_bytes": 5869,
+      "sha256": "55457df7a374f213fbc512a0f2fb627fc55016eb1ccfe891e3cfab1e30919678"
+    },
+    {
+      "path": "server/export-data.js",
+      "size_bytes": 3363,
+      "sha256": "94dec5398705618a79075cb26157bad3fb474f7bbe42e865fc4e891418bd379b"
+    },
+    {
+      "path": "server/package.json",
+      "size_bytes": 239,
+      "sha256": "e58d820a4e1be3b3794f26c8852595fcfd16ded59ae15b7f16e87cb8d7204f00"
+    },
+    {
+      "path": "server/public/index.html",
+      "size_bytes": 5888291,
+      "sha256": "89b72aab70a1c7cc43dccbf1a8d743f593564a3109a848649ea7df1786875001"
+    },
+    {
+      "path": "server/server.js",
+      "size_bytes": 12098,
+      "sha256": "d53807b8e99b3479f044edf85e80466d4533e4234a4073d52abd753a0c0f3b04"
+    },
+    {
+      "path": "source/conflict-pattern-mapping-reference.pdf",
+      "size_bytes": 167269,
+      "sha256": "368ae2f84544f807b57c014f99ba029daa7308ce1ca0adec511e6e74bb4d7647"
+    },
+    {
+      "path": "source/risk-patterns-reference.pdf",
+      "size_bytes": 308504,
+      "sha256": "05483a979b735da1f41b181a7f438e27141a5ee3cacc95424b2b93021968978b"
+    },
+    {
+      "path": "tests/city_world_check.py",
+      "size_bytes": 1421,
+      "sha256": "1231f47327169063d1d803056f64604fb987e944a2f4c68114b58eaebc24f1ba"
+    },
+    {
+      "path": "tests/job_space_regression.py",
+      "size_bytes": 773,
+      "sha256": "afc50950214328910d65be7649c509a00a5fb3332d1cb27980fe46ad74350e99"
+    },
+    {
+      "path": "tests/runtime_catalogue_check.py",
+      "size_bytes": 3820,
+      "sha256": "2ee069523fae1ee39486ec88e05786e45761072abd900bf04582748e3596723e"
+    },
+    {
+      "path": "tests/static_check.py",
+      "size_bytes": 10242,
+      "sha256": "ad6c29cfad2d629881dc21f60ef9daf646e87faefb6460fcc3c6d4c59c872d8c"
+    }
+  ]
+}
